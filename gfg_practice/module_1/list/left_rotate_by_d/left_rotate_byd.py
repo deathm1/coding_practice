@@ -30,6 +30,8 @@ def left_rotate_by_slicing(my_list: list, d:int) -> list:
 
 def left_rotate_by_loop_naive(my_list: list, d:int) -> list:
     """Takes more auxilary space Theeta O(nd)
+    this is because pop(0) operation takes th(n) space. as pop
+    operation will need to store items in another list.
 
     Args:
         my_list (list): i/p
@@ -59,7 +61,7 @@ def left_rotate_by_3_reverse(my_list: list, d:int) -> list:
     return my_list
 
 
-def reverse_list(my_list: list, s, e) -> int:
+def reverse_list(my_list: list, s, e):
     """Gives max of integer
 
     Args:
