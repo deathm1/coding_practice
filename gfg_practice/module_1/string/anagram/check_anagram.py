@@ -1,4 +1,3 @@
-
 def check_anagram(s1 : str, s2 : str):
     if(len(s1) != len(s2)):
         return False

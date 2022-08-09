@@ -14,7 +14,7 @@ def check_palindrome(txt: str):
 
 
 def driver():
-    print(check_palindrome("ABCA"))
+    print(check_palindrome("ABCBA"))
 
 if(__name__==r"__main__"):
     driver()
